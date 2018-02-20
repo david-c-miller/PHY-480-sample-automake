@@ -21,6 +21,9 @@ CLEANFILES = *~ src/*~
 
 ## It **MUST** contain a dummy 'all' and clean' statements for automake
 ## to find it and work with it (see the end of the makefiles here)
+## additionally, any automake make 'xyz' statements will need dummy references
+## here (for example) make distclean is very useful and you can define
+## 'distclean: clean'
 
 SUBDIRS = src/UnitTestscpp/JacobiTests src/UnitTestscpp/ToeplitzTests
 
