@@ -9,3 +9,17 @@ configure
 depcomp
 install-sh
 missing
+Makefile
+
+config.log
+config.status
+.dirstamp
+
+## defaults
+*.o
+*~
+*.x
+
+## specfic
+bin/*
+testcode

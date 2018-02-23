@@ -66,7 +66,8 @@ AC_LINK_IFELSE(
   [AC_LANG_PROGRAM([#include <armadillo>],
     [arma::mat dummy])],
   [TEST_LIBS="-larmadillo"] [HAVE_ARMADILLO=1],
-  [AC_MSG_WARN([Armadillo is not installed.])])
+  [AC_MSG_WARN([Armadillo is not installed.])]
+ )
 #############################################################
 
 #############################################################
